@@ -1,0 +1,3 @@
+[submodule "onshape-public-apikey"]
+	path = onshape-public-apikey
+	url = https://github.com/onshape-public/apikey.git
