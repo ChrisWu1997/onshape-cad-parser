@@ -1,6 +1,6 @@
 # OnShape-CAD-Parser
 
-A simple parser to collect CAD construction data from OnShape. It's part of our project [DeepCAD: A Deep Generative Network for Computer-Aided Design Models]().
+A simple parser to collect CAD construction data from OnShape. It's part of our project [DeepCAD: A Deep Generative Network for Computer-Aided Design Models](https://github.com/ChrisWu1997/DeepCAD), ICCV 2021.
 
 It's built on [Onshape-public/apikey](https://github.com/onshape-public/apikey). Python 2 (2.7.9+) is required.
 
@@ -42,8 +42,22 @@ It's built on [Onshape-public/apikey](https://github.com/onshape-public/apikey).
     ```
   We collect data for our DeepCAD paper in this way.
 
+### Note
+This parser has some limitations, mainly
+- CAD Operations other than sketch and extrude are not supported now. 
+- Sketch constraints are not recorded even though Onshape data provide them.
 
-### Reference
-[Placeholder]
+In the future, we may update it with more flexibilities. And anyone interested are welcomed to further expand this parser for your own purpose.
+
+### Cite
+Please consider citing our work if you find it useful:
 ```
+@misc{wu2021deepcad,
+      title={DeepCAD: A Deep Generative Network for Computer-Aided Design Models}, 
+      author={Rundi Wu and Chang Xiao and Changxi Zheng},
+      year={2021},
+      eprint={2105.09492},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
