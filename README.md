@@ -9,7 +9,7 @@ It's built on [Onshape-public/apikey](https://github.com/onshape-public/apikey).
 ### Dependencies
 - Clone this repo
     ```sh
-    $ git clone https://github.com/onshape-public/apikey.git
+    $ git clone https://github.com/ChrisWu1997/onshape-cad-parser.git
     $ cd onshape-public-apikey
     $ git submodule init
     $ git submodule update
